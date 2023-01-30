@@ -1,4 +1,4 @@
-import java.util.stream.IntStream; // //
+import java.util.stream.IntStream;
 public class TechnicalChallenges03 {
     public static void main(String[] args) {
         System.out.println("Hello world!");
