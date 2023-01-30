@@ -1,7 +1,5 @@
-import java.util.stream.IntStream;
-
 public class Main {
-        public static void main3(String[] args) {
+        /*public static void main3(String[] args) {
             System.out.println("Hello world!");
             IntStream.range(1, 101).forEach(n -> {
                 if (n%3 == 0 && n%5 == 0) {
@@ -13,7 +11,7 @@ public class Main {
                     System.out.println(n + "Baa");
                 }
                 });
-        }
+        }*/
 
         //-------------------------------
         public static void main(String[] args) {
