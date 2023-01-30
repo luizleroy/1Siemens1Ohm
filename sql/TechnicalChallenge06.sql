@@ -1,5 +1,4 @@
 -- Model
-
 CREATE TABLE Students (
     ID int,
     Name VARCHAR,
