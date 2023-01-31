@@ -1,23 +1,25 @@
 public class TechnicalChallenge04 { //
     public static void main(String[] args) {
-        char s[] = {'b','l','a','b','l','a','b','l','a','b','l','a'};
-        char t[] = {'c','d','e'};
-        concatRemove(s,t,8);
+        char t[] = {'b','l','a','b','l','a','b','l','a','b','l','a'};
+        char s[] = {'c','d','e'};
+        concatRemove(t,s,8);
     }
 
     // PRINCIPAL ALGORITHM
-    private static void concatRemove(char[] s, char[] t, int k) {
-
-        s = remove(s);
-        s = remove(s);
-        s = remove(s);
-        s = remove(s);
-        s = remove(s);
-        s = concat(s,t[0]);
-        s = concat(s,t[1]);
-        s = concat(s,t[2]);
-        System.out.println(k);
-        System.out.println(s);
+    public static void concatRemove(char[] t, char[] s, int k) {
+        if(k < 0 || k > 100 || s.length > k) {
+            System.out.println("no");
+            return;
+        }
+        System.out.println(t);
+        for (int i = 0; i < k-s.length; i++) {
+            t = remove(t);
+        };
+        for (int i = 0; i < s.length; i++) {
+            t = concat(t,s[i]);
+        }
+        System.out.println(t);
+        System.out.println("yes");
         //To big data in string... Runtime.getRuntime().gc();
     }
 
