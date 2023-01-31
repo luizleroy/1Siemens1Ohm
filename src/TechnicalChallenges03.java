@@ -4,7 +4,7 @@ public class TechnicalChallenges03 {
         System.out.println("Hello world!");
         IntStream.range(1, 101).forEach(n -> {
             if (n%3 == 0 && n%5 == 0) {
-                System.out.println(n + "FooBaa");
+                System.out.println("FooBaa");
             } else if (n%3 == 0)
             {
                 System.out.println("Foo");
