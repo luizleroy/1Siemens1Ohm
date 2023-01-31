@@ -1,10 +1,11 @@
 # 1_Siemens__1_Ohm
-Technical Challenges Siemens | inv(Ohm) = 1 Siemens :)
+Technical Challenge
 
-## IMPORTANT: Tech Challange in BRANCH MASTER
+Siemens | inv(Ohm) = 1 Siemens :)
 
-## Important observations:
+## IMPORTANT: The technical challenge lies with the Branch MASTER!
+## Observations:
+- Some challenges are coded in java (e.g. Technical Challenge*.java) and
+also with a version in a MAIN method to evaluate, also, proficiency in C/C++ (e.g. mainTechChallenge*.c).
 
-Some challenges are coded in java (TechnicalChallenge*.java)
-with a main method to test eventually a mainTechChallenge*.c 
-file with implementation in c language.
+- The BQ utility was coded in *.sh files similar to shell/linux programming.
